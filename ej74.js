@@ -1,25 +1,19 @@
-/*Crear un documento con el nombre ej72.js
+/*Crear un documento con el nombre ej74.js
 Mostrar en consola el siguiente dibujo utilizando la estructura while
 *
-**
 ***
-****
 *****
-******
 *******
-********
 *********
-**********
 ***********
-************
-*************
-*/
+*************   */
 
 
 var estrella = '*';
+var contador = 1;
 
-while (estrella.length < 15) {
+while (contador <= 13) {
     console.log(estrella);
-    estrella += '*';
-
+    estrella += '**';
+    contador ++;
 }
