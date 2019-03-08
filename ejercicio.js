@@ -285,7 +285,7 @@ console.log(mensaje);
 */
 
 
-/*var arrayDeNombres = ['Malena', 'Vicky', 'Luciana', 'Pini'];
+var arrayDeNombres = ['Malena', 'Vicky', 'Luciana', 'Pini'];
 
 console.log('Todo el array', arrayDeNombres);
 
@@ -297,7 +297,7 @@ console.log('La última posición del array', arrayDeNombres[arrayDeNombres.leng
 
 console.log('El array convertido en string', arrayDeNombres.toString());
 
-*/
+
 
 
 

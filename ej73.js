@@ -15,10 +15,12 @@ Mostrar en consola el siguiente dibujo utilizando la estructura while
 *    
 */
 
-var a = '';
-var base = 5;
-var resta = 5;
+var multiplicador = 10;
+var estrellas = '**********';
 
-while (numeroDos >= 0) {
 
+while (multiplicador >= 1) {
+console.log(estrellas);
+estrellas = estrellas.substr(0,estrellas.length-1);
+multiplicador--;
 }
