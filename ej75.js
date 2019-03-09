@@ -4,12 +4,12 @@ Podes leer más sobre esta secuencia en Wikipedia
 Acá podes encontrar una pequeña ayuda */
 
 
-var n = 0;
+var n = 1;
 var A = 1;
 var B = 0;
 var C = 0;
 
-while (n <= 9 ) {
+while (n <= 10 ) {
     console.log(C);
     C = A + B;
     A = B;
